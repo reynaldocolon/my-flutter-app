@@ -152,7 +152,7 @@ class AppDrawer extends StatelessWidget {
             title: const Text('My Portfolio Site'),
             onTap: () {
               // FORCE REDIRECT: Bypass pop-up blockers by changing the current tab's URL
-              html.window.location.href = 'https://www.reynaldocolon.org';
+              html.window.location.href = 'https://reynaldocolon.github.io';
             },
           ),
         ],
